@@ -10,16 +10,16 @@ public class button : MonoBehaviour
     //public bool Q1A1 = false;
 
     public GameObject btnl;
-    public GameObject btnl2;
+    //public GameObject btnl2;
     
     //static int counts = 0;
 
 
 
-    public void restart()
+    /*public void restart()
     {
         btnl2.SetActive(true);
-    }
+    }*/
 
 
     public void onClick()

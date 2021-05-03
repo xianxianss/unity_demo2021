@@ -9,8 +9,7 @@ public class ShowAnime : MonoBehaviour
 
     public bool Q1A1 = false;
 
-    public GameObject btn0l;
-    public GameObject btn02;
+ 
 
     //static int counts = 0;
 
@@ -24,7 +23,6 @@ public class ShowAnime : MonoBehaviour
 
     public void isonClick()
     {
-        btn0l.SetActive(false);
         ConfigManager.FetchCompleted += Q1configs;
         ConfigManager.FetchConfigs<userAttributes, appAttributes>(new userAttributes(), new appAttributes());
     }

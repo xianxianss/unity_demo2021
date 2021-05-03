@@ -1007,7 +1007,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: "\u9078\u9805\u4E00"
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6351658265666176595, guid: 940844b1e26965b48808986294b89efa, type: 3}
+    - {fileID: 6351658264636074456, guid: 940844b1e26965b48808986294b89efa, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 940844b1e26965b48808986294b89efa, type: 3}
 --- !u!1001 &8693141597128557874
 PrefabInstance:
@@ -1096,5 +1098,8 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1379880071}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8693141597321710593, guid: 267eab7c59318854d9ec24a03c00cbd0, type: 3}
+    - {fileID: 8693141595419471470, guid: 267eab7c59318854d9ec24a03c00cbd0, type: 3}
+    - {fileID: 8693141595856073559, guid: 267eab7c59318854d9ec24a03c00cbd0, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 267eab7c59318854d9ec24a03c00cbd0, type: 3}
