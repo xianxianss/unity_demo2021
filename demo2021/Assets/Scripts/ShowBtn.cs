@@ -7,6 +7,7 @@ public class ShowBtn : MonoBehaviour
     private VideoClip vc1;
     private VideoPlayer v;
     public GameObject btn1;
+    public GameObject ani2;
    
 
 

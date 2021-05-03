@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using Unity.RemoteConfig;
+using UnityEngine.Video;
 
 public class ShowAnime : MonoBehaviour
 {
@@ -9,19 +10,11 @@ public class ShowAnime : MonoBehaviour
 
     public bool Q1A1 = false;
 
- 
-
     //static int counts = 0;
 
 
 
-    /*ublic void restart()
-    {
-        btnl2.SetActive(true);
-    }*/
-
-
-    public void isonClick()
+    public void A1action()
     {
         ConfigManager.FetchCompleted += Q1configs;
         ConfigManager.FetchConfigs<userAttributes, appAttributes>(new userAttributes(), new appAttributes());
@@ -36,12 +29,23 @@ public class ShowAnime : MonoBehaviour
 
         if (Q1A1)
         {
-            //GetComponent<ShowBtn>().btn1.SetActive(true);
-            GetComponent<button>().onClick();
-
+            GameObject.Find("1").GetComponent<ShowBtn>().ani2.SetActive(true);
+            //GetComponent<ShowBtn>().ani2.SetActive(true);
+           
         }
 
     }
+
+
+
+
+
+
+
+
+
+
+
 
 
     // public void Vote()

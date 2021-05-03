@@ -18,7 +18,7 @@ MonoBehaviour:
     rs:
       key: Q1A1
       type: bool
-      value: True
+      value: False
   rsLastCachedKeyList: []
   configId: fc36b92f-3d9f-4bb3-a5d9-4a10b759125b
   currentEnvironmentId: c2683290-d8a0-433c-8d17-34c29c1ec901
